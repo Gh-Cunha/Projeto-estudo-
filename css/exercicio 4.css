@@ -1,0 +1,26 @@
+/*reset*/
+@import'reset.css';
+/*cores*/
+@import'cores.css';
+/*alturas*/
+@import'alturas.css';
+/*colunas*/
+@import'colunas.css';
+
+/*estilos*/
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+
+.row>div{
+    float: left;
+}
+
+.img-fluid{
+    max-width: 100%;
+ max-height: 100%;
+}

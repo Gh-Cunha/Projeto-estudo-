@@ -1,0 +1,21 @@
+/*reset*/
+@import'reset.css';
+
+/*cores*/
+@import'cores.css';
+
+/*alturas*/
+@import'alturas.css';
+
+/*colunas*/
+@import'colunas.css';
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.row>div{
+    float: left;
+}

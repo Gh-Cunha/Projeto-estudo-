@@ -1,0 +1,32 @@
+/* reset */
+@import'reset.css';
+
+/* cores */
+@import'cores.css';
+
+/* colunas */
+@import'colunas.css';
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.row{
+    height: 25%;
+    width: 100%;
+}
+
+.col{
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+
+.row>div{
+    display: inline-block;
+    float: left;
+}
+

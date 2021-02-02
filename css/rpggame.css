@@ -1,0 +1,60 @@
+/* reset */
+@import'reset.css';
+
+/* cores */
+@import'cores.css';
+
+/* alturas */
+@import'alturas.css';
+
+/* colunas */
+@import'colunas.css';
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.row>div{
+    display: inline-block;
+    float: left;
+}
+
+/* topbar */
+
+.topbar div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* logotipo e menu */
+
+/* logotipo */
+.logotipo{
+    margin-left: 15px;
+    margin-top: 15px;
+    max-width: 150px;
+    width: auto;
+}
+
+.menu ul{
+    display: inline-block;
+    width: 100%;
+    margin-top: 15px;
+    
+}
+
+.menu ul li{
+    display: inline-block;
+    width: 23.1%;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.menu ul li a{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
